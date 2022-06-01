@@ -1,0 +1,27 @@
+// main: ../style.less
+
+/*BUTTONS*/
+
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  padding: 1rem 2rem;
+  font-weight: var(--font-semi-bold);
+  text-transform: capitalize;
+  border-radius: .5rem;
+  transition: .3s;
+
+  &:hover{
+    background-color: var(--first-color-dark);
+  }
+}
+
+.button__light{
+  background-color: var(--first-color-lighten);
+  color: var(--first-color);
+
+  &:hover{
+    color: var(--first-color-lighten);
+  }
+}
